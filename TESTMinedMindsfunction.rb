@@ -1,9 +1,5 @@
 require 'minitest/autorun'
-
-def get_mined_minds_result(number)
-	1
-	#placing 1 makes func work, but no scrnecho
-end
+require_relative 'minedmindsfunction.rb'
 
 class TestMMFunctions < Minitest::Test
 	def test_one_equals_one()
