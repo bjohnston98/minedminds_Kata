@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 
-def get_mined_minds_result()
+def get_mined_minds_result(number)
 
 end
 
