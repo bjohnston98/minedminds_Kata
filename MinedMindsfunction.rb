@@ -1,5 +1,6 @@
 def get_mined_minds_result(number)
-	number #<<this is to be removed for hwork
+	put 1
+	number #this is to be removed for hwork
 	#placing 1 makes func work, no scrnecho
 	if number == 3
 		"mined"
