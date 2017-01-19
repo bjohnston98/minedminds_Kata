@@ -12,3 +12,6 @@ number = 1
 		end
 		number = number + 1
 	end
+
+	#Here, with every number first evaluated by 15 condition ("mined minds"), when count 100.times do hits 15,
+	# Condition 1 fulfilled, and "MM" echoed.
