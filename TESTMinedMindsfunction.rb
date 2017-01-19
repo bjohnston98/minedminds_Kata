@@ -9,4 +9,8 @@ class TestMMFunctions < Minitest::Test
 	def test_two_returns_two()
 		assert_equal(2,get_mined_minds_result(2))
 	end
+	
+	def test_three_returns_MINED()
+		assert_equal('MINED',get_mined_minds_result(3))
+	end
 end
