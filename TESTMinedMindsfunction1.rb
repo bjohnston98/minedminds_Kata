@@ -10,23 +10,23 @@ class TestMMFunctions < Minitest::Test
 		assert_equal(2,get_mined_minds_result(2))
 	end
 	
-	def test_three_returns_MINED()
-		assert_equal('MINED',get_mined_minds_result(3))
+	def test_three_returns_mined()
+		assert_equal('mined',get_mined_minds_result(3))
 	end
 
-	def test_5_returns_minds
-		assert_equal("minds",get_mined_minds_result(5))
+	def test_five_returns_minds()
+		assert_equal('minds',get_mined_minds_result(5))
 	end
 
-	def test_3_and_5_returns_minedminds
-		assert_equal("minedminds", get_mined_minds_result(15))
+	def test_fifteen_returns_minedminds()
+		assert_equal('mined minds',get_mined_minds_result(15))
 	end
 
-	def test_98_returns_98
-		assert_equal(98, get_mined_minds_result(98))
+	def test_10_returns_minds()
+		assert_equal('minds',get_mined_minds_result(10))
 	end
 
-	def test_30_returns_minedminds
-		assert_equal("minedminds", get_mined_minds_result(30))
+	def test_30_returns_minedminds()
+		assert_equal("mined minds",get_mined_minds_result(30))
 	end
 end
